@@ -21,8 +21,13 @@ Running the app performs 6 steps:
 ## Download
 
 Grab the latest build from the [Releases](../../releases) page and run
-`EcoPasteReplacer.exe`. Windows will prompt for administrator elevation —
+`Eco Paste Replacer.exe`. Windows will prompt for administrator elevation —
 that's expected, the app needs it to change system-wide registry policy.
+
+Requires .NET Framework 4.7.2 or later, which ships in-box with Windows 10
+1809+. On an older or stripped-down Windows install where it's missing, the
+app offers to silently download and install it (via Microsoft's official
+installer) before restarting itself, instead of crashing.
 
 ## Building from source
 
@@ -74,8 +79,13 @@ Khi chạy, app thực hiện 6 bước:
 ## Tải về
 
 Lấy bản mới nhất ở trang [Releases](../../releases) và chạy
-`EcoPasteReplacer.exe`. Windows sẽ hỏi quyền admin — đây là điều bình thường,
+`Eco Paste Replacer.exe`. Windows sẽ hỏi quyền admin — đây là điều bình thường,
 app cần quyền này để thay đổi registry policy toàn hệ thống.
+
+Yêu cầu .NET Framework 4.7.2 trở lên, vốn có sẵn trên Windows 10 1809+. Nếu
+máy cũ hoặc bản Windows tối giản chưa có, app sẽ hỏi và tự tải + cài đặt âm
+thầm (dùng installer chính thức của Microsoft) rồi tự khởi động lại, thay vì
+bị crash.
 
 ## Đóng góp / ủng hộ
 
