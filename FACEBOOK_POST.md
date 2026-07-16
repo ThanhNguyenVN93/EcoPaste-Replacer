@@ -11,7 +11,7 @@ Bạn dùng Win+V hàng ngày nhưng thấy bảng clipboard mặc định của
 
 Miễn phí, mã nguồn mở, chạy trên Windows 10/11.
 
-🔗 Tải về & xem source: [dán link GitHub repo của bạn vào đây]
+🔗 Tải về & xem source: https://github.com/ThanhCode93x/EcoPaste-Replacer
 💬 Góp ý / báo lỗi: https://forms.gle/HJYPERBgk8Uyya1RA
 ☕ Ủng hộ tác giả: https://ko-fi.com/thanhnguyen150993
 
@@ -32,7 +32,7 @@ Do you use Win+V every day but wish it had more features? EcoPaste Replacer will
 
 Free and open-source, works on Windows 10/11.
 
-🔗 Download & source code: [paste your GitHub repo link here]
+🔗 Download & source code: https://github.com/ThanhCode93x/EcoPaste-Replacer
 💬 Feedback / bug reports: https://forms.gle/HJYPERBgk8Uyya1RA
 ☕ Support the developer: https://ko-fi.com/thanhnguyen150993
 
