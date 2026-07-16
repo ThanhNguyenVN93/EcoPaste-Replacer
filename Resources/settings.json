@@ -1,0 +1,131 @@
+{
+  "general": {
+    "autoStart": true,
+    "runAsAdmin": true,
+    "trayIcon": true,
+    "dockIcon": true
+  },
+  "appearance": {
+    "theme": "auto",
+    "language": "en-US"
+  },
+  "shortcuts": {
+    "openClipboard": "Alt+C",
+    "openPreference": "Alt+X",
+    "winV": true
+  },
+  "clipboard": {
+    "capture": {
+      "text": true,
+      "html": true,
+      "rtf": true,
+      "image": true,
+      "files": true,
+      "maxTextMb": 4,
+      "maxImageMb": 10,
+      "order": [
+        "files",
+        "image",
+        "html",
+        "rtf",
+        "text"
+      ]
+    },
+    "content": {
+      "autoPaste": "singleClickPaste",
+      "middleClick": "disabled",
+      "copyPlain": false,
+      "copyThenHideWindow": true,
+      "pastePlain": false,
+      "pasteFilesAsPath": false,
+      "showOriginalPreview": true,
+      "deleteConfirm": true,
+      "deleteFavoriteItems": false,
+      "deleteFavoriteConfirm": true,
+      "deletePinnedItems": false,
+      "deletePinnedConfirm": true,
+      "deleteFavoriteItemsOnlyInFavoriteGroup": true,
+      "autoFavorite": false,
+      "updateOnReuse": true,
+      "sort": "updatedAtDesc",
+      "itemActions": [
+        "copy",
+        "star",
+        "pinItem",
+        "delete"
+      ],
+      "itemActionOrder": [
+        "paste",
+        "pastePlain",
+        "pastePath",
+        "copy",
+        "copyPlain",
+        "openLink",
+        "sendEmail",
+        "reveal",
+        "note",
+        "star",
+        "pinItem",
+        "delete"
+      ]
+    },
+    "display": {
+      "textMaxLines": 3,
+      "imageMaxHeight": 64,
+      "fileMaxCount": 3
+    },
+    "sensitive": {
+      "collectSecrets": false,
+      "redactSecrets": true
+    },
+    "history": {
+      "retention": {
+        "value": 0,
+        "unit": "forever"
+      },
+      "maxCount": 0,
+      "cleanupIntervalHours": 0
+    },
+    "search": {
+      "defaultFocus": true,
+      "clearOnHide": true
+    },
+    "window": {
+      "position": "followCursor",
+      "scrollToTopOnOpen": true,
+      "selectRangeOnOpen": "preserve",
+      "selectCategoryOnOpen": "preserve",
+      "selectGroupOnOpen": "preserve",
+      "lightweightMode": true,
+      "idleDestroySeconds": 60
+    },
+    "preview": {
+      "hoverEnabled": false,
+      "hoverDelayMs": "ms500",
+      "spaceEnabled": true
+    },
+    "feedback": {
+      "copySound": true
+    },
+    "filters": {
+      "excludedAppIds": []
+    }
+  },
+  "onboarding": {
+    "completed": true,
+    "lastStep": 0,
+    "legacyImport": {
+      "checked": true,
+      "imported": false,
+      "importTypes": [],
+      "importedAt": null
+    }
+  },
+  "update": {
+    "autoCheck": false,
+    "frequency": "daily",
+    "includeBeta": false,
+    "lastCheckedAt": null,
+    "skippedVersion": null
+  }
+}
